@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "xpython",
+      "display_name": "Python 3.13 (XPython)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.13.1"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "0bfbf1f7-8e8e-4094-9799-18702e338215",
+      "cell_type": "markdown",
+      "source": "# Base Python File\n",
+      "metadata": {}
+    },
+    {
+      "id": "21a1b4ae-58b7-4cac-957e-8e643071765a",
+      "cell_type": "code",
+      "source": "# Import Packages\nimport pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\nimport seaborn as sns",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "698019f8-955b-4d23-aff3-5737647c16ca",
+      "cell_type": "code",
+      "source": "# Create timestamp and author\nfrom datetime import datetime\ntime_now = datetime.now().strftime('%m_%d_%Y_%I%M%p')\nprint(\"Current Time: {}\".format(time_now))\nprint(\"Kenny Pham\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "72eb0050-b62c-4e79-8714-48b1e95b1d71",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
